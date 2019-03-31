@@ -21,6 +21,9 @@ fun Activity.toastShort(message: String) {
 fun Activity.toastLong(message: String) {
     Toast.makeText(this, message, Toast.LENGTH_LONG).show()
 }
+
+fun Activity.getRootView() = findViewById<View>(android.R.id.content)
+
 // endregion
 
 // region fragment
