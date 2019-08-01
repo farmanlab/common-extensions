@@ -5,7 +5,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'maven'
 
 def repo = new File(rootDir, "repository")
-def version = "1.0.1"
+def version = "1.0.2"
 
 android {
     compileSdkVersion 28
